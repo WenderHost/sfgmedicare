@@ -62,7 +62,6 @@
     "wpackagist-plugin/disable-gutenberg": "^3.2",
     "wpackagist-plugin/download-monitor": "^5.1",
     "wpackagist-plugin/elementor": "^3.34",
-    "wpackagist-plugin/embedpress": "^4.4",
     "wpackagist-plugin/event-tickets": "^5.27",
     "wpackagist-plugin/hotjar": "^1.0",
     "wpackagist-plugin/media-cleaner": "^7.0",
