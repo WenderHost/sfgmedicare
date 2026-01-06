@@ -29,6 +29,10 @@
     "forum": "https://discourse.roots.io/category/bedrock"
   },
   "repositories": {
+    "sfgmedicare-extras": {
+      "type": "vcs",
+      "url": "https://github.com/mwender/sfgmedicare-extras"
+    },
     "satispress": {
       "type": "composer",
       "url": "https://packages.wenmarkdigital.com/satispress/"
@@ -52,11 +56,41 @@
     "roots/bedrock-disallow-indexing": "^2.0",
     "roots/wordpress": "6.9",
     "roots/wp-config": "1.0.0",
-    "wpackagist-theme/twentytwentyfive": "^1.0",
-    "wenmark/advanced-custom-fields-pro": "^6.7"
+    "wenmark/advanced-custom-fields-pro": "^6.7",
+    "wpackagist-plugin/akismet": "^5.6",
+    "wpackagist-plugin/cimo-image-optimizer": "^1.2",
+    "wpackagist-plugin/disable-gutenberg": "^3.2",
+    "wpackagist-plugin/download-monitor": "^5.1",
+    "wpackagist-plugin/elementor": "^3.34",
+    "wpackagist-plugin/embedpress": "^4.4",
+    "wpackagist-plugin/event-tickets": "^5.27",
+    "wpackagist-plugin/hotjar": "^1.0",
+    "wpackagist-plugin/media-cleaner": "^7.0",
+    "wpackagist-plugin/pojo-accessibility": "^3.9",
+    "wpackagist-plugin/redirection": "^5.6",
+    "wpackagist-plugin/simple-page-ordering": "^2.7",
+    "wpackagist-plugin/spinupwp": "^1.9",
+    "wpackagist-plugin/the-events-calendar": "^6.15",
+    "wpackagist-plugin/wordpress-seo": "^26.6",
+    "wpackagist-plugin/wp-reviews-plugin-for-google": "^13.2",
+    "wenmark/elementor-pro": "^3.34",
+    "wenmark/event-tickets-plus": "^6.9",
+    "wenmark/gp-nested-forms": "^1.2",
+    "wenmark/gp-populate-anything": "^2.1",
+    "wenmark/gravityforms": "^2.9",
+    "wenmark/gravityformszapier": "^4.5",
+    "wenmark/gwreadonly": "^1.9",
+    "wenmark/ithemes-security-pro": "^8.6",
+    "wenmark/spellbook": "^3.0",
+    "wenmark/wpcodebox2": "^1.2",
+    "mwender/sfgmedicare-extras": "^1.0",
+    "wpackagist-theme/hello-elementor": "^3.4",
+    "wpackagist-plugin/limit-login-attempts-reloaded": "^2.26",
+    "wenmark/events-calendar-pro": "^7.7"
   },
   "require-dev": {
-    "laravel/pint": "^1.18"
+    "laravel/pint": "^1.18",
+    "wpackagist-plugin/localdev-switcher": "^0.8.0"
   },
   "config": {
     "optimize-autoloader": true,
