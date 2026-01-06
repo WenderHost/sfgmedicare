@@ -216,22 +216,26 @@
         },
         {
             "name": "mwender/sfgmedicare-extras",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mwender/sfgmedicare-extras.git",
-                "reference": "53a925c95a14ce7f865d05e8a14ca0b1dcd8d716"
+                "reference": "3c0d48f40ab236bf796ce6492939453ee13eb387"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mwender/sfgmedicare-extras/zipball/53a925c95a14ce7f865d05e8a14ca0b1dcd8d716",
-                "reference": "53a925c95a14ce7f865d05e8a14ca0b1dcd8d716",
+                "url": "https://api.github.com/repos/mwender/sfgmedicare-extras/zipball/3c0d48f40ab236bf796ce6492939453ee13eb387",
+                "reference": "3c0d48f40ab236bf796ce6492939453ee13eb387",
                 "shasum": ""
             },
             "require": {
+                "php": ">=8.1",
                 "zordius/lightncandy": "^1.2"
             },
             "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
             "authors": [
                 {
                     "name": "Michael Wender",
@@ -239,11 +243,12 @@
                 }
             ],
             "description": "WordPress plugin for extending capabilities of the SFG website",
+            "homepage": "https://github.com/mwender/sfgmedicare-extras",
             "support": {
-                "source": "https://github.com/mwender/sfgmedicare-extras/tree/1.0.0",
+                "source": "https://github.com/mwender/sfgmedicare-extras/tree/1.0.1",
                 "issues": "https://github.com/mwender/sfgmedicare-extras/issues"
             },
-            "time": "2023-09-01T19:50:47+00:00"
+            "time": "2026-01-06T19:39:50+00:00"
         },
         {
             "name": "oscarotero/env",
