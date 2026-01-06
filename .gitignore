@@ -3,10 +3,15 @@ web/app/plugins/*
 !web/app/plugins/.gitkeep
 web/app/mu-plugins/*/
 web/app/themes/twentytwentyfive/
+web/app/themes/hello-elementor/
+web/app/themes/localdev-sfgmedicare-hello-theme-child/
+web/app/themes/sfgmedicare-hello-theme-child/
 web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
 web/app/cache/*
+sql/
+web/*.sh
 
 # WordPress
 web/wp
