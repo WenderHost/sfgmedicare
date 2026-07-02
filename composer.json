@@ -38,7 +38,6 @@
       "url": "https://packages.wenmarkdigital.com/satispress/"
     },
     "wpackagist": {
-      "name": "wpackagist",
       "type": "composer",
       "url": "https://wpackagist.org",
       "only": [
