@@ -37,7 +37,7 @@
       "type": "composer",
       "url": "https://packages.wenmarkdigital.com/satispress/"
     },
-    "0": {
+    "wpackagist": {
       "name": "wpackagist",
       "type": "composer",
       "url": "https://wpackagist.org",
