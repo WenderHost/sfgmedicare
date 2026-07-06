@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc7c1e8cc2a4c765132188ac8d43d8ec",
+    "content-hash": "3b24b53701f089cac75dc822bafbaadc",
     "packages": [
         {
             "name": "composer/installers",
@@ -1456,15 +1456,15 @@
         },
         {
             "name": "wpackagist-plugin/limit-login-attempts-reloaded",
-            "version": "2.26.28",
+            "version": "3.3.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded/",
-                "reference": "tags/2.26.28"
+                "reference": "tags/3.3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.2.26.28.zip"
+                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.3.3.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"

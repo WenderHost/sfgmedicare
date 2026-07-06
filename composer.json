@@ -83,7 +83,7 @@
     "wenmark/wpcodebox2": "^1.2",
     "mwender/sfgmedicare-extras": "^1.0",
     "wpackagist-theme/hello-elementor": "^3.4",
-    "wpackagist-plugin/limit-login-attempts-reloaded": "^2.26",
+    "wpackagist-plugin/limit-login-attempts-reloaded": "^3",
     "wenmark/events-calendar-pro": "^7.7"
   },
   "require-dev": {
