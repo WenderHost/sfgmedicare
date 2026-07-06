@@ -1121,11 +1121,11 @@
         },
         {
             "name": "wenmark/event-tickets-plus",
-            "version": "6.9.0",
+            "version": "6.9.4",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/event-tickets-plus/6.9.0",
-                "shasum": "cc4cfe71652a8842d0aa10d219a64a42a0c1db90"
+                "url": "https://packages.wenmarkdigital.com/satispress/event-tickets-plus/6.9.4",
+                "shasum": "30ffcb78405e6e6cb7aab11ac6bc8464e484c213"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1142,11 +1142,11 @@
         },
         {
             "name": "wenmark/events-calendar-pro",
-            "version": "7.7.14",
+            "version": "7.7.16",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/events-calendar-pro/7.7.14",
-                "shasum": "1e3208af30e64d5fd634663487e21d540e709a26"
+                "url": "https://packages.wenmarkdigital.com/satispress/events-calendar-pro/7.7.16",
+                "shasum": "17176138bf081e71632c4a6b8d2e9918185bb610"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
