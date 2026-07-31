@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b24b53701f089cac75dc822bafbaadc",
+    "content-hash": "c0557ac2e87ad8e1af03acd3e4665971",
     "packages": [
         {
             "name": "composer/installers",
@@ -516,7 +516,7 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "7.0",
+            "version": "7.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/wordpress.git",
@@ -547,7 +547,7 @@
             ],
             "support": {
                 "issues": "https://github.com/roots/wordpress/issues",
-                "source": "https://github.com/roots/wordpress/tree/7.0"
+                "source": "https://github.com/roots/wordpress/tree/7.0.2"
             },
             "funding": [
                 {
@@ -626,23 +626,23 @@
         },
         {
             "name": "roots/wordpress-no-content",
-            "version": "7.0",
+            "version": "7.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "7.0"
+                "reference": "7.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.w.org/release/wordpress-7.0-no-content.zip",
-                "reference": "7.0",
-                "shasum": "2ffdd31a747f68e3e5633064993997a7ce881975"
+                "url": "https://downloads.w.org/release/wordpress-7.0.2-no-content.zip",
+                "reference": "7.0.2",
+                "shasum": "52d2ca801cbfd75d1f2716d057095323b6ca424a"
             },
             "require": {
                 "php": ">= 7.4"
             },
             "provide": {
-                "wordpress/core-implementation": "7.0"
+                "wordpress/core-implementation": "7.0.2"
             },
             "suggest": {
                 "ext-curl": "Performs remote request operations.",
@@ -693,7 +693,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2026-05-20T18:34:28+00:00"
+            "time": "2026-07-17T18:39:03+00:00"
         },
         {
             "name": "roots/wp-config",
@@ -995,16 +995,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v5.6.3",
+            "version": "v5.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "955e7815d677a3eaa7075231212f2110983adecc"
+                "reference": "416df702837983f8d5ff48c9c3fee4f5f57b980b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/955e7815d677a3eaa7075231212f2110983adecc",
-                "reference": "955e7815d677a3eaa7075231212f2110983adecc",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/416df702837983f8d5ff48c9c3fee4f5f57b980b",
+                "reference": "416df702837983f8d5ff48c9c3fee4f5f57b980b",
                 "shasum": ""
             },
             "require": {
@@ -1063,7 +1063,7 @@
             ],
             "support": {
                 "issues": "https://github.com/vlucas/phpdotenv/issues",
-                "source": "https://github.com/vlucas/phpdotenv/tree/v5.6.3"
+                "source": "https://github.com/vlucas/phpdotenv/tree/v5.6.4"
             },
             "funding": [
                 {
@@ -1075,15 +1075,15 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-12-27T19:49:13+00:00"
+            "time": "2026-07-06T19:11:50+00:00"
         },
         {
             "name": "wenmark/advanced-custom-fields-pro",
-            "version": "6.8.5",
+            "version": "6.8.6",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/advanced-custom-fields-pro/6.8.5",
-                "shasum": "c628b46d3283287ee739033313e79a747adaba26"
+                "url": "https://packages.wenmarkdigital.com/satispress/advanced-custom-fields-pro/6.8.6",
+                "shasum": "a04f6464cbf89db1be42917ec5f518d339d1c956"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1100,11 +1100,11 @@
         },
         {
             "name": "wenmark/elementor-pro",
-            "version": "4.1.2",
+            "version": "4.2.1",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/elementor-pro/4.1.2",
-                "shasum": "c9f47e0e454c323b3f3c8414c7093ee264bc3409"
+                "url": "https://packages.wenmarkdigital.com/satispress/elementor-pro/4.2.1",
+                "shasum": "b9af79f053108bf419de7c1cfff25feb87eab904"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1142,11 +1142,11 @@
         },
         {
             "name": "wenmark/events-calendar-pro",
-            "version": "7.7.16",
+            "version": "7.8.0",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/events-calendar-pro/7.7.16",
-                "shasum": "17176138bf081e71632c4a6b8d2e9918185bb610"
+                "url": "https://packages.wenmarkdigital.com/satispress/events-calendar-pro/7.8.0",
+                "shasum": "b17e19413e185a43980e9a425687701b20bff669"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1162,11 +1162,11 @@
         },
         {
             "name": "wenmark/gp-nested-forms",
-            "version": "1.2.28",
+            "version": "1.2.29",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/gp-nested-forms/1.2.28",
-                "shasum": "5ba86c1388c5c2ce55bd94b726821b70bf79395c"
+                "url": "https://packages.wenmarkdigital.com/satispress/gp-nested-forms/1.2.29",
+                "shasum": "e3bc25c42c2f564ae017138c26b9e6c43a4a90a2"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1288,11 +1288,11 @@
         },
         {
             "name": "wenmark/spellbook",
-            "version": "3.0.27",
+            "version": "3.0.28",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/spellbook/3.0.27",
-                "shasum": "5b5e6c8912f8d479d5095117403c4c755e629ed2"
+                "url": "https://packages.wenmarkdigital.com/satispress/spellbook/3.0.28",
+                "shasum": "c0e29096c698e696275dcdf2d1f50ae138c3e25e"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1366,15 +1366,15 @@
         },
         {
             "name": "wpackagist-plugin/disable-gutenberg",
-            "version": "3.3.1",
+            "version": "3.3.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/disable-gutenberg/",
-                "reference": "tags/3.3.1"
+                "reference": "tags/3.3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disable-gutenberg.3.3.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/disable-gutenberg.3.3.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1384,15 +1384,15 @@
         },
         {
             "name": "wpackagist-plugin/download-monitor",
-            "version": "5.2.0",
+            "version": "5.2.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/download-monitor/",
-                "reference": "tags/5.2.0"
+                "reference": "tags/5.2.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/download-monitor.5.2.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/download-monitor.5.2.7.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1402,15 +1402,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "4.1.4",
+            "version": "4.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/4.1.4"
+                "reference": "tags/4.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.4.1.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.4.2.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1420,15 +1420,15 @@
         },
         {
             "name": "wpackagist-plugin/event-tickets",
-            "version": "5.28.5.1",
+            "version": "5.29.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/event-tickets/",
-                "reference": "tags/5.28.5.1"
+                "reference": "tags/5.29.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/event-tickets.5.28.5.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/event-tickets.5.29.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1456,15 +1456,15 @@
         },
         {
             "name": "wpackagist-plugin/limit-login-attempts-reloaded",
-            "version": "3.3.2",
+            "version": "3.3.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded/",
-                "reference": "tags/3.3.2"
+                "reference": "tags/3.3.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.3.3.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.3.3.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1474,15 +1474,15 @@
         },
         {
             "name": "wpackagist-plugin/media-cleaner",
-            "version": "7.1.1",
+            "version": "7.2.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/media-cleaner/",
-                "reference": "tags/7.1.1"
+                "reference": "tags/7.2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/media-cleaner.7.1.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/media-cleaner.7.2.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1492,15 +1492,15 @@
         },
         {
             "name": "wpackagist-plugin/pojo-accessibility",
-            "version": "4.1.2",
+            "version": "4.1.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/pojo-accessibility/",
-                "reference": "tags/4.1.2"
+                "reference": "tags/4.1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pojo-accessibility.4.1.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/pojo-accessibility.4.1.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1510,15 +1510,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "5.8.1",
+            "version": "5.9.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/5.8.1"
+                "reference": "tags/5.9.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.5.8.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.9.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1564,15 +1564,15 @@
         },
         {
             "name": "wpackagist-plugin/the-events-calendar",
-            "version": "6.16.5.1",
+            "version": "6.17.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/the-events-calendar/",
-                "reference": "tags/6.16.5.1"
+                "reference": "tags/6.17.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.16.5.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.17.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1694,16 +1694,16 @@
     "packages-dev": [
         {
             "name": "laravel/pint",
-            "version": "v1.29.3",
+            "version": "v1.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/pint.git",
-                "reference": "da1d1111a6aa2e082d2a388b194afe1ba0a05d14"
+                "reference": "f6e999702e640d998b9682df8b16241806036584"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pint/zipball/da1d1111a6aa2e082d2a388b194afe1ba0a05d14",
-                "reference": "da1d1111a6aa2e082d2a388b194afe1ba0a05d14",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/f6e999702e640d998b9682df8b16241806036584",
+                "reference": "f6e999702e640d998b9682df8b16241806036584",
                 "shasum": ""
             },
             "require": {
@@ -1714,14 +1714,16 @@
                 "php": "^8.2.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.95.8",
-                "illuminate/view": "^12.62.0",
+                "composer/semver": "^3.4.4",
+                "friendsofphp/php-cs-fixer": "^3.95.18",
+                "illuminate/view": "^12.64.0",
                 "larastan/larastan": "^3.10.0",
                 "laravel-zero/framework": "^12.1.0",
                 "laravel/agent-detector": "^2.0.2",
+                "laravel/prompts": "^0.3.21",
                 "mockery/mockery": "^1.6.12",
                 "nunomaduro/termwind": "^2.4.0",
-                "pestphp/pest": "^3.8.6"
+                "pestphp/pest": "^3.8.7"
             },
             "bin": [
                 "builds/pint"
@@ -1758,7 +1760,7 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
-            "time": "2026-06-16T15:34:04+00:00"
+            "time": "2026-07-31T19:35:59+00:00"
         },
         {
             "name": "wpackagist-plugin/localdev-switcher",
