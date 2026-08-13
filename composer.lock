@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c0557ac2e87ad8e1af03acd3e4665971",
+    "content-hash": "e877ec815117629be597e51502f9c354",
     "packages": [
         {
             "name": "composer/installers",
@@ -1079,11 +1079,11 @@
         },
         {
             "name": "wenmark/advanced-custom-fields-pro",
-            "version": "6.8.6",
+            "version": "6.8.7",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/advanced-custom-fields-pro/6.8.6",
-                "shasum": "a04f6464cbf89db1be42917ec5f518d339d1c956"
+                "url": "https://packages.wenmarkdigital.com/satispress/advanced-custom-fields-pro/6.8.7",
+                "shasum": "44ea041dc86ec3fd5aa0ec2f3cae30c85ab4be36"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1121,11 +1121,11 @@
         },
         {
             "name": "wenmark/event-tickets-plus",
-            "version": "6.9.4",
+            "version": "6.10.2",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/event-tickets-plus/6.9.4",
-                "shasum": "30ffcb78405e6e6cb7aab11ac6bc8464e484c213"
+                "url": "https://packages.wenmarkdigital.com/satispress/event-tickets-plus/6.10.2",
+                "shasum": "4b8c0336133378a4f7827230a9d5ab076238712c"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1162,11 +1162,11 @@
         },
         {
             "name": "wenmark/gp-nested-forms",
-            "version": "1.2.29",
+            "version": "1.2.31",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/gp-nested-forms/1.2.29",
-                "shasum": "e3bc25c42c2f564ae017138c26b9e6c43a4a90a2"
+                "url": "https://packages.wenmarkdigital.com/satispress/gp-nested-forms/1.2.31",
+                "shasum": "3ca4e3c6fed65472512dc006814bd00a75a9f9b6"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1183,11 +1183,11 @@
         },
         {
             "name": "wenmark/gp-populate-anything",
-            "version": "2.1.73",
+            "version": "2.1.74",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/gp-populate-anything/2.1.73",
-                "shasum": "4e4aaee6b36647f63d28bdd958d94f1b3049ee8c"
+                "url": "https://packages.wenmarkdigital.com/satispress/gp-populate-anything/2.1.74",
+                "shasum": "6b88db5ba86a1e85c3afe4b896d1bba5ecf6cc11"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1266,27 +1266,6 @@
             "homepage": "https://gravitywiz.com/documentation/gravity-forms-read-only/"
         },
         {
-            "name": "wenmark/ithemes-security-pro",
-            "version": "8.6.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/ithemes-security-pro/8.6.0",
-                "shasum": "c87a1db62fd62d0a719e04ea405650660bc07b72"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "Kadence",
-                    "homepage": "https://kadencewp.com"
-                }
-            ],
-            "description": "Shield your site from cyberattacks and prevent security vulnerabilities. The only security plugin you need.",
-            "homepage": "https://solidwp.com/security"
-        },
-        {
             "name": "wenmark/spellbook",
             "version": "3.0.28",
             "dist": {
@@ -1348,15 +1327,15 @@
         },
         {
             "name": "wpackagist-plugin/cimo-image-optimizer",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cimo-image-optimizer/",
-                "reference": "tags/1.4.1"
+                "reference": "tags/1.4.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cimo-image-optimizer.1.4.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/cimo-image-optimizer.1.4.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1402,15 +1381,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "4.2.1",
+            "version": "4.2.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/4.2.1"
+                "reference": "tags/4.2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.4.2.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.4.2.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1420,15 +1399,15 @@
         },
         {
             "name": "wpackagist-plugin/event-tickets",
-            "version": "5.29.1",
+            "version": "5.29.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/event-tickets/",
-                "reference": "tags/5.29.1"
+                "reference": "tags/5.29.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/event-tickets.5.29.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/event-tickets.5.29.2.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1456,15 +1435,15 @@
         },
         {
             "name": "wpackagist-plugin/limit-login-attempts-reloaded",
-            "version": "3.3.4",
+            "version": "3.3.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded/",
-                "reference": "tags/3.3.4"
+                "reference": "tags/3.3.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.3.3.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.3.3.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1564,15 +1543,15 @@
         },
         {
             "name": "wpackagist-plugin/the-events-calendar",
-            "version": "6.17.1",
+            "version": "6.17.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/the-events-calendar/",
-                "reference": "tags/6.17.1"
+                "reference": "tags/6.17.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.17.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.17.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1694,16 +1673,16 @@
     "packages-dev": [
         {
             "name": "laravel/pint",
-            "version": "v1.30.1",
+            "version": "v1.30.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/pint.git",
-                "reference": "f6e999702e640d998b9682df8b16241806036584"
+                "reference": "fe4148c503a0e266353d61396b79bbf7f35122df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pint/zipball/f6e999702e640d998b9682df8b16241806036584",
-                "reference": "f6e999702e640d998b9682df8b16241806036584",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/fe4148c503a0e266353d61396b79bbf7f35122df",
+                "reference": "fe4148c503a0e266353d61396b79bbf7f35122df",
                 "shasum": ""
             },
             "require": {
@@ -1711,19 +1690,19 @@
                 "ext-mbstring": "*",
                 "ext-tokenizer": "*",
                 "ext-xml": "*",
-                "php": "^8.2.0"
+                "php": "^8.3.0"
             },
             "require-dev": {
                 "composer/semver": "^3.4.4",
                 "friendsofphp/php-cs-fixer": "^3.95.18",
-                "illuminate/view": "^12.64.0",
+                "illuminate/view": "^13.24.0",
                 "larastan/larastan": "^3.10.0",
-                "laravel-zero/framework": "^12.1.0",
+                "laravel-zero/framework": "^13.0.0",
                 "laravel/agent-detector": "^2.0.2",
-                "laravel/prompts": "^0.3.21",
+                "laravel/prompts": "^0.3.22",
                 "mockery/mockery": "^1.6.12",
                 "nunomaduro/termwind": "^2.4.0",
-                "pestphp/pest": "^3.8.7"
+                "pestphp/pest": "^4.7.8"
             },
             "bin": [
                 "builds/pint"
@@ -1760,7 +1739,7 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
-            "time": "2026-07-31T19:35:59+00:00"
+            "time": "2026-08-10T15:35:50+00:00"
         },
         {
             "name": "wpackagist-plugin/localdev-switcher",
