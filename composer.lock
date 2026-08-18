@@ -1162,11 +1162,11 @@
         },
         {
             "name": "wenmark/gp-nested-forms",
-            "version": "1.2.31",
+            "version": "1.2.32",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/gp-nested-forms/1.2.31",
-                "shasum": "3ca4e3c6fed65472512dc006814bd00a75a9f9b6"
+                "url": "https://packages.wenmarkdigital.com/satispress/gp-nested-forms/1.2.32",
+                "shasum": "414ea12a14004441eb64d1bb9995df76655279ba"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1309,15 +1309,15 @@
         },
         {
             "name": "wpackagist-plugin/akismet",
-            "version": "5.7",
+            "version": "5.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/akismet/",
-                "reference": "tags/5.7"
+                "reference": "tags/5.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/akismet.5.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/akismet.5.7.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1453,15 +1453,15 @@
         },
         {
             "name": "wpackagist-plugin/media-cleaner",
-            "version": "7.2.5",
+            "version": "7.2.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/media-cleaner/",
-                "reference": "tags/7.2.5"
+                "reference": "tags/7.2.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/media-cleaner.7.2.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/media-cleaner.7.2.6.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1561,15 +1561,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "28.2",
+            "version": "28.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/28.2"
+                "reference": "tags/28.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.28.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.28.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1579,15 +1579,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-reviews-plugin-for-google",
-            "version": "13.3.1",
+            "version": "13.3.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-reviews-plugin-for-google/",
-                "reference": "tags/13.3.1"
+                "reference": "tags/13.3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-reviews-plugin-for-google.13.3.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-reviews-plugin-for-google.13.3.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
