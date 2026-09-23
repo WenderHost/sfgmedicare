@@ -516,7 +516,7 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "7.1",
+            "version": "7.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/wordpress.git",
@@ -547,7 +547,7 @@
             ],
             "support": {
                 "issues": "https://github.com/roots/wordpress/issues",
-                "source": "https://github.com/roots/wordpress/tree/7.1"
+                "source": "https://github.com/roots/wordpress/tree/7.1.2"
             },
             "funding": [
                 {
@@ -626,23 +626,23 @@
         },
         {
             "name": "roots/wordpress-no-content",
-            "version": "7.1",
+            "version": "7.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "7.1"
+                "reference": "7.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/wordpress-7.1-no-content.zip",
-                "reference": "7.1",
-                "shasum": "7b28e5af89345d79a30b44a16cbe3244379d1765"
+                "url": "https://downloads.wordpress.org/release/wordpress-7.1.2-no-content.zip",
+                "reference": "7.1.2",
+                "shasum": "52c0250854a52621dc024651b63d1e088287ee16"
             },
             "require": {
                 "php": ">= 7.4"
             },
             "provide": {
-                "wordpress/core-implementation": "7.1"
+                "wordpress/core-implementation": "7.1.2"
             },
             "suggest": {
                 "ext-curl": "Performs remote request operations.",
@@ -693,7 +693,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2026-08-19T20:16:40+00:00"
+            "time": "2026-09-22T13:36:10+00:00"
         },
         {
             "name": "roots/wp-config",
@@ -1100,11 +1100,11 @@
         },
         {
             "name": "wenmark/elementor-pro",
-            "version": "4.2.3",
+            "version": "4.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/elementor-pro/4.2.3",
-                "shasum": "0904ff7ff7dff00f28417e7cb9dea070d517301a"
+                "url": "https://packages.wenmarkdigital.com/satispress/elementor-pro/4.3.0",
+                "shasum": "1cc7fc5c5a61ba259361951c3d44fffb43f6e13e"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1183,11 +1183,11 @@
         },
         {
             "name": "wenmark/gp-populate-anything",
-            "version": "2.1.75",
+            "version": "2.1.76",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/gp-populate-anything/2.1.75",
-                "shasum": "5d9b864bd21acaaffba2da9e6f04e3a0a75b5db9"
+                "url": "https://packages.wenmarkdigital.com/satispress/gp-populate-anything/2.1.76",
+                "shasum": "ffbd4fdcc95dd0bcc84b008d1a5fea00e54f5120"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1204,11 +1204,11 @@
         },
         {
             "name": "wenmark/gravityforms",
-            "version": "3.1.1",
+            "version": "3.1.2",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/gravityforms/3.1.1",
-                "shasum": "0b60ce7d16c88123103921c3df76080725fdbe79"
+                "url": "https://packages.wenmarkdigital.com/satispress/gravityforms/3.1.2",
+                "shasum": "78b62099a34065f0b467c8b2d3e743057c3daeda"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1381,15 +1381,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "4.2.4",
+            "version": "4.3.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/4.2.4"
+                "reference": "tags/4.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.4.2.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.4.3.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1399,15 +1399,15 @@
         },
         {
             "name": "wpackagist-plugin/event-tickets",
-            "version": "5.29.4",
+            "version": "5.29.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/event-tickets/",
-                "reference": "tags/5.29.4"
+                "reference": "tags/5.29.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/event-tickets.5.29.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/event-tickets.5.29.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1435,15 +1435,15 @@
         },
         {
             "name": "wpackagist-plugin/limit-login-attempts-reloaded",
-            "version": "3.3.8",
+            "version": "3.3.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded/",
-                "reference": "tags/3.3.8"
+                "reference": "tags/3.3.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.3.3.8.zip"
+                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.3.3.9.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1453,15 +1453,15 @@
         },
         {
             "name": "wpackagist-plugin/media-cleaner",
-            "version": "7.2.7",
+            "version": "7.2.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/media-cleaner/",
-                "reference": "tags/7.2.7"
+                "reference": "tags/7.2.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/media-cleaner.7.2.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/media-cleaner.7.2.8.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1489,15 +1489,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "5.10.0",
+            "version": "5.10.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/5.10.0"
+                "reference": "tags/5.10.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.5.10.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.10.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1543,15 +1543,15 @@
         },
         {
             "name": "wpackagist-plugin/the-events-calendar",
-            "version": "6.17.4.1",
+            "version": "6.17.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/the-events-calendar/",
-                "reference": "tags/6.17.4.1"
+                "reference": "tags/6.17.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.17.4.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.17.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1561,15 +1561,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "28.4",
+            "version": "28.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/28.4"
+                "reference": "tags/28.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.28.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.28.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
