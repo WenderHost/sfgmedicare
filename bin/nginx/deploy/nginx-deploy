@@ -74,12 +74,39 @@ cmd_diff() {
   fi
 }
 
+# pull makes the mirror match the server, so a custom file whose committed
+# version isn't what the server has would be overwritten (or deleted, if it was
+# never deployed). Refuse instead of making the user notice a ` D` in git status.
+guard_undeployed() {
+  local tree f
+  local -a differ=()
+  tree="HEAD:$(prefix)"
+  while IFS= read -r f; do
+    git -C "$REPO" cat-file -e "$tree$f" 2>/dev/null || continue
+    if [[ ! -f "$SNAPSHOT/$f" ]] || ! git -C "$REPO" show "$tree$f" | cmp -s - "$SNAPSHOT/$f"; then
+      differ+=("$f")
+    fi
+  done < <(custom_files)
+  (( ${#differ[@]} )) || return 0
+  echo "ERROR: these committed custom files differ from the server:" >&2
+  printf '  %s\n' "${differ[@]}" >&2
+  cat >&2 <<'EOF'
+Pulling now would replace your committed versions in the working tree.
+  - Committed but not deployed yet?  Run `push` first, then `pull`.
+  - Deployed from another machine?   Update this repo (git pull) first.
+  - Want the server's copy anyway?   Re-run with `pull --force`.
+EOF
+  exit 1
+}
+
 cmd_pull() {
   if [[ "${1:-}" != "--force" ]] && dirty; then
     die "working tree has uncommitted changes; commit them or re-run with --force"
   fi
   fetch_snapshot
-  rsync -rt --delete --exclude .git --exclude deploy "$SNAPSHOT/" "$REPO/"
+  [[ "${1:-}" == "--force" ]] || guard_undeployed
+  # --checksum: compare content, not size+mtime, which can miss a same-size edit.
+  rsync -rtc --delete --exclude .git --exclude deploy "$SNAPSHOT/" "$REPO/"
   if dirty; then
     echo "Pulled server state. Changes vs. last commit:"
     git -C "$REPO" status --short -- . ':!deploy'

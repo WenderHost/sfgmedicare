@@ -1,6 +1,6 @@
 # nginx deploy: sfgmedicare.com
 
-This directory mirrors the live nginx config for sfgmedicare.com at `/etc/nginx/sites-available/sfgmedicare.com/` on venus.wenmarkdigital.com (206.189.224.134). It was set up with spinupwp-nginx-deploy (`/Users/mwender/Dropbox/Projects/spinupwp-nginx-deploy`), which holds the full documentation.
+This directory mirrors the live nginx config for sfgmedicare.com at `/etc/nginx/sites-available/sfgmedicare.com/` on venus.wenmarkdigital.com (206.189.224.134). It was set up with [spinupwp-nginx-deploy](https://github.com/mwender/spinupwp-nginx-deploy) (checked out at `~/Dropbox/Projects/` on the MacBook, `~/Projects/` on the Mac Mini), which holds the full documentation.
 
 ## Commands
 
@@ -16,7 +16,7 @@ deploy/nginx-deploy check   # compare custom-files.txt with the server's allowli
 
 ## Rules
 
-- Run `pull` (or `diff`) before editing, never between committing and pushing: `pull` matches the working tree to the server, so it removes a committed custom file that isn't deployed yet (`git checkout -- .` restores it). SpinupWP rewrites its managed files during server updates and when settings change in its dashboard, so the mirror drifts.
+- Run `pull` (or `diff`) before editing, and push before you pull: `pull` refuses while a committed custom file differs from the server (not pushed yet, or deployed from another machine you haven't `git pull`ed). SpinupWP rewrites its managed files during server updates and when settings change in its dashboard, so the mirror drifts.
 - Never edit SpinupWP's own files (`fastcgi-cache.conf`, `https.conf`, and so on). Put customizations in separately named files in the same include dir. Files load alphabetically, so an override must sort after the file it overrides.
 - Adding a custom file means adding it to `deploy/custom-files.txt` and re-registering with `bin/nginx-deploy-admin install` from the spinupwp-nginx-deploy project, which needs the server's sudo password.
 - The tool never deletes. Removing a custom file from the server is a manual step for the sudo user.
