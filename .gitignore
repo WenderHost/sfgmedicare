@@ -34,3 +34,4 @@ wp-cli.local.yml
 
 # Misc
 project.sublime-*
+bin/nginx/

@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /wp/wp-admin/
+Allow: /wp/wp-admin/admin-ajax.php
+Disallow: /*eventDisplay=day
+Disallow: /*eventDate=
+Disallow: /*tribe-bar-date=
+Disallow: /*ical=
+Disallow: /events/20
+Disallow: /events/list/page/
+Disallow: /events/category/*/page/
+
+Sitemap: https://sfgmedicare.com/sitemap_index.xml
