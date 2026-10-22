@@ -20,3 +20,11 @@ deploy/nginx-deploy check   # compare custom-files.txt with the server's allowli
 - Never edit SpinupWP's own files (`fastcgi-cache.conf`, `https.conf`, and so on). Put customizations in separately named files in the same include dir. Files load alphabetically, so an override must sort after the file it overrides.
 - Adding a custom file means adding it to `deploy/custom-files.txt` and re-registering with `bin/nginx-deploy-admin install` from the spinupwp-nginx-deploy project, which needs the server's sudo password.
 - The tool never deletes. Removing a custom file from the server is a manual step for the sudo user.
+
+## Box-wide rules live here
+
+`before/` is included at nginx's http level, outside any `server {}` block, so a `deny` placed there is inherited by **every vhost on venus**, not just sfgmedicare.com. sfgmedicare.com is the only site on venus registered with nginx-deploy, so it carries the box's rules:
+
+- `before/zz-box-deny-scanners.conf` denies `185.177.72.0/24`, the recurring `curl/8.7.1` secrets scanner. Deployed 2026-10-22 during a sweep of all eight public vhosts. Confirmed from the access logs: every scanner request on five co-tenant vhosts became a 146-byte 403 from the first minute.
+
+If sfgmedicare.com ever leaves venus, move these files to another registered site on the box first, or the block disappears with it. A vhost or location that sets its own `allow`/`deny` doesn't inherit them.
