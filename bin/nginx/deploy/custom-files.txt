@@ -9,3 +9,4 @@
 #   bin/nginx-deploy-admin install <this mirror>   (from the spinupwp-nginx-deploy project)
 server/bot-block.conf
 server/events-calendar-trap.conf
+before/zz-box-deny-scanners.conf
